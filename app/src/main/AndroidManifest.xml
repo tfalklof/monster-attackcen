@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 Tobias Falklöf -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="se.tfalklof.android.monsterattacken">
+    <application android:icon="@drawable/monsterattacken_icon" android:label="@string/app_name">
+    <activity android:name="se.tfalklof.android.monsterattacken.MonsterAttackenActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:screenOrientation="landscape">
+        <intent-filter>
+			<action android:name="android.intent.action.MAIN"></action>
+			<category android:name="android.intent.category.LAUNCHER"></category>
+		</intent-filter>
+	</activity>
+    </application>
+</manifest>
